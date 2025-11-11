@@ -6,10 +6,7 @@ import { Mail } from 'lucide-react';
 /**
  * EDITABLE UI COMPONENT - NewsletterSection
  * 
- * Componente UI completamente editable para suscripción a newsletter.
- * El agente IA puede modificar colores, textos, layout, etc.
- * 
- * Consume lógica de HeadlessNewsletter (solo muestra email input).
+ * Newsletter subscription for vintage fashion store.
  */
 
 export const NewsletterSection = () => {
@@ -26,20 +23,20 @@ export const NewsletterSection = () => {
                   </div>
                 </div>
                 <h3 className="text-2xl font-bold text-foreground">
-                  Thanks for subscribing!
+                  Welcome to the vintage community!
                 </h3>
                 <p className="text-muted-foreground">
-                  You'll receive our best offers and promotions soon.
+                  You'll be the first to know about new arrivals and exclusive vintage finds.
                 </p>
               </div>
             ) : (
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h3 className="text-2xl font-bold text-foreground">
-                    Want promotional emails?
+                    Join Our Vintage Community
                   </h3>
                   <p className="text-lg text-muted-foreground">
-                    Subscribe to our newsletter and get exclusive offers
+                    Get first access to new arrivals, styling tips, and exclusive vintage finds
                   </p>
                 </div>
                 
